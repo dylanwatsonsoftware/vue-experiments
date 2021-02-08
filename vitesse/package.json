@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "start": "npm run dev",
     "dev": "vite --port 3333 --open",
     "build": "cross-env NODE_ENV=production vite-ssg build"
   },
